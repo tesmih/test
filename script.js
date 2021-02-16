@@ -1,3 +1,4 @@
+'use strict';
 
 var leftBorder = 1;
 let second = 2;
@@ -8,8 +9,10 @@ var person = {
     age: 30,
     married: false
 };
+var booble = 12;
+
 console.log(person.name);
 var itsClose = true,
     itsCheck = false;
 
-console.log(itsCheck || !itsClose)
+console.log(itsCheck || !itsClose);
